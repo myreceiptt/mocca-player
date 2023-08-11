@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --gold: #ffd700;
+  --darkgold: #cd9a00;
+  --darksilver: #515151;
+  --white: #ffffff;
+  --silver: #cecaca;
+  --lightbshadow: rgba(0, 0, 0, 0.47);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(var(--darkgold) 20%, var(--lightbshadow) 80%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 74px;
+  height: 74px;
+  margin: -37px 0 0 -37px;
+  border: 16px solid var(--darkgold);
+  border-radius: 50%;
+  border-top: 16px solid var(--gold);
+  border-bottom: 16px solid var(--gold);
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//    ██████╗ ██████╗  ██████╗ ███████╗    ███╗   ██╗ ██████╗ ████████╗ █████╗     //
+//    ██╔══██╗██╔══██╗██╔═══██╗██╔════╝    ████╗  ██║██╔═══██╗╚══██╔══╝██╔══██╗    //
+//    ██████╔╝██████╔╝██║   ██║█████╗      ██╔██╗ ██║██║   ██║   ██║   ███████║    //
+//    ██╔═══╝ ██╔══██╗██║   ██║██╔══╝      ██║╚██╗██║██║   ██║   ██║   ██╔══██║    //
+//    ██║     ██║  ██║╚██████╔╝██║██╗      ██║ ╚████║╚██████╔╝   ██║   ██║  ██║    //
+//    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝╚═╝      ╚═╝  ╚═══╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝    //
+//                                                                                 //
+//    Prof. NOTA - @MyReceiptt - @MyReceipt                                        //
+//                                                                                 //
+//    If you managed to find and read this article,                                //
+//    then this is a validation that you have a big enough curiosity.              //
+//    At the same time, I congratulate you for being one of the pioneers...        //
+//    who are ready to face The Melting Land phenomenon.                           //
+//                                                                                 //
+//    If this internet and the digital world are an open sea...                    //
+//    where all the water is connected and our real life is a land...              //
+//    from where we came from, then we must push ourselves...                      //
+//    to understand what is the web3.0 era to survive The Melting Land.            //
+//                                                                                 //
+//    So, let's contribute, delegate, collect, create, and repeat!                 //
+//                                                                                 //
+//    As my gratitude to all of you who read this, please DM me...                 //
+//    and show me this message so I can give you a ticket...                       //
+//    to jump in Roty Broi's Ark and we can sail The Melting Land together.        //
+//                                                                                 //
+//    Prof. NOTA - @MyReceiptt - @MyReceipt                                        //
+//    Deep Link: https://crot.straight-line.org/                                   //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+*/
