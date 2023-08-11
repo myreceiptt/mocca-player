@@ -10,7 +10,9 @@
 - 📫 &nbsp; Don't try to reach me.
 - ⚡ &nbsp; Fun fact: [The King's NFTs project](https://iqraa.straight-line.org/the-kings-nfts/)
 
-> Here are some ideas to get you started: WAGMI!!!!
+> Here are some ideas to get you started:
+
+WAGMI!!!!
 
 > Regards
 > 
@@ -18,7 +20,3 @@
 > 
 > [init.straight-line.org](https://init.straight-line.org/)
 > 
-
-<!--
-**myreceiptt/myreceiptt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on Prof. NOTA's GitHub profile.
--->
